@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # In-memory data storage for simplicity
 data = {'users': 
-['vishal','jahnavi','amrith','main','dev','dev2','Swastik','abhishek']}
+['vishal','jahnavi','amrith','main','dev','dev2','Swastik','abhishek','Sidhant']}
 
 # GET method to retrieve all users
 @app.route('/users', methods=['GET'])
