@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # In-memory data storage for simplicity
-data = {'users': ['vishal','jahnavi','amrith','dev']}
+data = {'users': ['vishal','jahnavi','amrith','main']}
 
 # GET method to retrieve all users
 @app.route('/users', methods=['GET'])
